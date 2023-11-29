@@ -9,7 +9,7 @@
 body{
   min-height: 100vh;
   width: 100%;
-  background: #009579;
+  background: #7B9AA6;
 }
 .container{
   position: absolute;
@@ -36,6 +36,14 @@ body{
 }
 .container .form{
   padding: 2rem;
+  text-align: center; /* Center the content inside the form */
+}
+/* Updated the styling for the logo */
+.logo {
+  display: block;
+  margin: 0 auto 1.5rem; 
+  height: 30%;
+  width: 30%;/* Center the logo and add some space below it */
 }
 .form header{
   font-size: 2rem;
@@ -58,15 +66,13 @@ body{
  }
 .form a{
   font-size: 16px;
-  color: #009579;
-  text-decoration: none;
-}
-.form a:hover{
+  color: #2D4859;
   text-decoration: underline;
 }
+
 .form input.button{
   color: #fff;
-  background: #009579;
+  background: #2D4859;
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 1px;
@@ -75,16 +81,14 @@ body{
   transition: 0.4s;
 }
 .form input.button:hover{
-  background: #006653;
+  background: #243B4D;
 }
 .signup{
   font-size: 17px;
   text-align: center;
 }
 .signup label{
-  color: #009579;
+  color: #2D4859;
   cursor: pointer;
-}
-.signup label:hover{
   text-decoration: underline;
 }
